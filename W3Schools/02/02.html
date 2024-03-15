@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTN On click img change</title>
+</head>
+
+<body>
+
+    <h1>BTN On click img change</h1>
+
+    <button id="off" onclick="function01()">Off</button>
+    <img src="./pic_bulboff.gif" Id="img">
+    <button id="on" onclick="function02()">On</button>
+    <script>
+        function function01() {
+            document.getElementById('img').src = './pic_bulboff.gif'
+        }
+        function function02() {
+            document.getElementById('img').src = './pic_bulbon.gif'
+        }
+    </script>
+</body>
+
+</html>
